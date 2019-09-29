@@ -1,0 +1,249 @@
+﻿@font-face {
+font-family: 'Helvetica Neue Light';
+font-style: normal;
+font-weight: normal;
+src: url("../font/HelveticaNeueLight.woff") format("woff");
+}
+
+/* Colors : Gris foncé : #505050 Gris clair : #606060 Gris très clair : #A6A6A6 */
+
+/*--GENERAL--*/
+
+body {
+    background-color: #EBEBE9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue Light';
+}
+
+#body-container {
+    background-color: #FCFDFE;
+    width: 900px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right:40px;
+    height: auto;
+}
+
+/*--HEADER--*/
+
+header {
+    margin: 0;
+    padding:0;
+}
+
+#container-box-title {
+    display: flex;
+    justify-content:space-between;
+}
+
+#box-title {
+    width: 50%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+    font-family: 'Helvetica Neue Light';
+    font-weight: 0;
+    letter-spacing: 2px;
+    color :#575551;
+}
+
+header h2 {
+    font-family: 'Helvetica Neue Light';
+    text-transform: capitalize;
+    font-size: 12px;
+    color :#575551;
+
+}
+
+#loupe {
+    display: flex;
+    align-items: flex-end;
+    margin: inherit;
+    padding: inherit;
+}
+#loupe p{
+    height: 22px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9F9;
+    padding-top: 2px;
+}
+#loupe a{
+
+}
+#loupe img{
+}
+
+/*--Nav--*/
+
+nav {
+    font-size: 12px;
+    background-color: #F8F9F9;
+    border-top: #F3F4F4 1px solid;
+    border-bottom: #F3F4F4 1px solid;
+    font-family: 'Helvetica Neue Light';
+    font-weight: 600; 
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: inherit;
+    height: 100%;
+    align-items:  center;  
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color : #575551;
+    margin: 20px;
+    width: auto;
+}
+
+.sous-menu{
+display: none;
+background-color: #F8F9F9;
+line-height: 33px;
+height: auto;
+padding-left: 20px;
+padding-right: 20px;
+width: auto;
+padding-top: 10px;
+}
+
+nav ul li:hover ul {
+display:block;
+ }
+nav .sous-menu {
+position: absolute;
+ }
+
+/*--CONTAINER PRINCIPAL--*/
+
+#container {
+width: 100%;
+}
+
+/*-Figure-*/
+
+figure {
+height: auto; 
+ width: auto;
+margin: 0;
+}
+
+figure img {
+margin: 0;
+width: 100%;
+height: 508px;
+}
+
+figure h2 {
+    margin-top: 28px;
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    font-size: 11px;
+    color: lightgrey;
+    font-weight: 600;
+}
+figcaption span {
+    color: darkgray;
+}
+/*-Section-*/
+
+section p {
+    font-size: 13px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color : dimgrey;
+    margin-bottom: 30px;
+}
+section {
+    height: 100%;
+    margin-top: 30px;
+}
+#separateur {
+    background-color: #F8F9F9;
+    height: 40px;
+    width: 100%;
+    border-top: #F3F4F4 1px solid;
+    border-bottom: #F3F4F4 1px solid;
+}
+
+/*--FOOTER--*/
+
+h4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 75px;
+    margin: inherit;
+    border-top: #F3F4F4 1px solid;
+    border-bottom: #F3F4F4 1px solid;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: capitalize;
+}
+#box-nav-footer {
+    display: flex;
+    font-size : 14px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: #F8F9F9;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container-footer {
+    width: 25%; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+
+}
+
+h5 {
+    text-transform: capitalize;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+}
+footer ul {
+    list-style: none;
+    padding: inherit;
+    width: 80%;
+    font-size: 12px;
+}
+footer li {
+
+}
+footer a {
+    text-decoration: none;
+    color: dimgrey;
+}
+/*Need to come back*/
+.fa-backspace {
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    top: 0px;
+    right: 20%;
+    background-color: darkslategray;
+    box-shadow: 0px 0px 10px 2px darkslategray;
+    padding: 20px 20px 8px 12px;
+    border-radius: 0% 0% 20% 20% ;
+}
