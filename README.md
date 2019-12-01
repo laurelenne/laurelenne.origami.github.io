@@ -1,3 +1,3 @@
-# Intégration Origrami
+# IntÃ©gration Origrami
 
-## https://laurelenne.github.io/laurelenne.origami.github.io/
+## https://laurelenne.github.io/origami
